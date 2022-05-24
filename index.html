@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work Order</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <form action="">
+    
+    <h1>Work Order</h1>
+
+    <div class="Container">
+        
+    <div class="column">
+        <p>Wo.No:&nbsp;&nbsp; ADRDE/QMS/PG&nbsp; <input type="text"></p>
+    <p >Date:&nbsp;&nbsp;
+        <script class="script"> document.write(new Date().toLocaleDateString()); </script>
+        </p>
+    <p>Authority:&nbsp;&nbsp; <input type="text"></p>
+    
+        
+      <label for="category">Priority-Category: &nbsp;&nbsp;</label>
+      <select name="category1" id="category1">
+        <option value="Manufacture">Manufacture</option>
+      </select>
+    
+      &nbsp;&nbsp;
+      <select name="category" id="category">
+        <option value="volvo">Repair</option>
+        <option value="saab">Deposit Repair</option>
+        <option value="mercedes">Payment</option>
+      </select>
+  
+
+    </div>
+
+    <div class="column2">
+       
+    <p>I.A.F.O-1870 </p>
+    <p>Unit/Pas&nbsp;&nbsp; <input type="text"></p>
+    <p><label for="Sub">Sub: &nbsp;&nbsp;</label>
+        <select name="category3" id="category1">
+          <option value="Deposit">Deposit</option>
+          <option value="Park">Park</option>
+          <option value="Group">Group</option>
+          <option value="Branch">Branch</option>
+        </select></p>
+
+        <p>Station&nbsp;&nbsp; <input type="text"></p>
+        <p>Unit&nbsp;&nbsp; <input type="text" name="unit" id="unit"></p>
+        <p>W.O Placed on&nbsp;&nbsp; <input type="date"></p>
+   
+</div> 
+      </div>
+      <hr>
+
+      <div class="table">
+      <table border="1" cellspacing="0">
+        <tr class="row">
+          <th>Lt/Part Number</th>
+          <th>Nomenclature</th>
+          <th>Quantity</th>
+          <th>Nature of Work</th>
+          <th>Remarks</th>
+        </tr>
+        <tr>
+            <td class="td"><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><textarea name="textarea1" id="" cols="20" rows="2"></textarea>
+                <form action="/action_page.php"><br>
+                  <input type="file" id="myFile" name="filename">
+                    <input type="submit">
+                  </form>
+            </td>
+            
+          </tr>
+          <tr>
+            <td class="td"><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><textarea name="textarea1" id="" cols="20" rows="2"></textarea> 
+                <form action="/action_page.php">
+                    <input type="file" id="myFile" name="filename">
+                    <input type="submit">
+                  </form>
+            </td>
+            
+          </tr>
+
+          <tr>
+            <td class="td"><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><textarea name="textarea1" id="" cols="20" rows="2"></textarea>
+                <form action="/action_page.php">
+                    <input type="file" id="myFile" name="filename">
+                    <input type="submit">
+                  </form></td>
+            
+          </tr>
+          <tr>
+            <td class="td"><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><textarea name="textarea1" id="" cols="20" rows="2"></textarea>
+            <form action="/action_page.php">
+                    <input type="file" id="myFile" name="filename">
+                    <input type="submit">
+                  </form></td>
+            
+          </tr>
+        
+      </table>
+    </div>
+    <hr>
+    <p>If Payment Charge to:-</p>
+    <table border="1" cellspacing="0" cellpadding="1">
+        <tr class="row">
+          <th>Initiated by</th>
+          <th>Counter Signature</th>
+          <th>Accepted By</th>
+         
+        </tr>
+        <tr>
+            <td><textarea name="textarea1" id="" cols="30" rows="2"></textarea></td>
+            <td><textarea name="textarea1" id="" cols="30" rows="2"></textarea></td>
+            <td><textarea name="textarea1" id="" cols="30" rows="2"></textarea></td>
+           
+            
+          </tr>
+          <tr>
+            <td class="td"> 
+             <label for="sub">I/C Sub</label>
+              <select name="" id="">
+                <option value="Deposit">Deposit</option>
+                <option value="Park">Park</option>
+                <option value="Group">Group</option>
+                <option value="Branch">Branch</option>
+              </select>
+              
+            </td>
+            <td>Comdt/DY.COMDT/OC.Unit</td>
+            <td>Comdt/OC/ Workshops</td>
+ 
+            
+          </tr>
+          </table>
+
+          <p>For Workshop Use Only:- </p>
+          <hr>
+
+          <div class="work">
+            
+            <div class="left">
+                Particular to gu.fde
+          <p><textarea name="" id="" cols="100" rows="10"></textarea></p>
+        </div>
+
+        <div class="right">
+            
+            <p>Wo.No and Date <input type="text" name="" id=""> <input type="date"></p>
+            <p>PSS date <input type="date" name="" id=""></p>
+            <p>PDC <input type="date" name="" id=""></p>
+            <p>Review <input type="text"></p>
+            <p>Priority category <input type="text"></p>
+            <p>Workshops Section <input type="text"></p>
+        
+        </div>
+        </div>
+    </form>
+</body>
+</html>
